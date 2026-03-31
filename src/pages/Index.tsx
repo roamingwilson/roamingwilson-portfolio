@@ -141,7 +141,7 @@ const Index = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-4xl">
           {/* GitHub */}
-          <TiltCard index={0} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://github.com" glowColor="var(--neon-green)">
+          <TiltCard index={0} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://github.com/roamingwilson" glowColor="var(--neon-green)">
             <div className="flex justify-between items-start mb-4">
               <div className="p-2 rounded-lg bg-background/50 border border-primary/20 text-primary">
                 <Github size={24} />
@@ -156,7 +156,7 @@ const Index = () => {
           </TiltCard>
 
           {/* LinkedIn */}
-          <TiltCard index={1} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://linkedin.com" glowColor="var(--neon-blue)">
+          <TiltCard index={1} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://www.linkedin.com/in/ibrahim-issa-cloud/" glowColor="var(--neon-blue)">
             <div className="flex justify-between items-start mb-4">
               <div className="p-2 rounded-lg bg-background/50 border border-[hsl(var(--neon-blue))]/20" style={{ color: "hsl(var(--neon-blue))" }}>
                 <Linkedin size={24} />
@@ -190,7 +190,7 @@ const Index = () => {
           </TiltCard>
 
           {/* Mostaql */}
-          <TiltCard index={3} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://mostaql.com" glowColor="var(--neon-yellow)">
+          <TiltCard index={3} className="h-full min-h-[140px] flex flex-col justify-between group" href="https://mostaql.com/u/ibrahimphp" glowColor="var(--neon-yellow)">
             <div className="flex justify-between items-start mb-4">
               <div className="p-2 rounded-lg bg-background/50 border border-[hsl(var(--neon-yellow))]/20" style={{ color: "hsl(var(--neon-yellow))" }}>
                 <Globe size={24} />
